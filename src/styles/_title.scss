@@ -1,0 +1,14 @@
+.Title {
+  margin: 2rem 2rem;
+  font-size: 1.2rem;
+  color: #313131;
+
+  &::after {
+    z-index: 0;
+    content: "";
+    width: 80%;
+    background-color: #790000;
+    height: 0.5rem;
+    position: absolute;
+  }
+}
